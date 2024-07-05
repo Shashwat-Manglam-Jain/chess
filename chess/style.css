@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    place-items: center;
+    flex-direction: column;
+}
+.square {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.game {
+    width: 600px;
+    height: 600px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.pieces svg{
+    width: 55px;
+    height: 55px;
+   
+}
+
+.turn{
+    font-size:25px;
+    margin-top: 20px;
+    font-weight: 800;
+    font-family: auto;
+}
